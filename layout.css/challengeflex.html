@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexchallenge</title>
+    <style>
+        body {
+           
+            background-color: cornsilk;
+            font-size: medium;
+            padding: 2px;
+          
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            align-items: space-between;
+            
+        }
+       
+        
+        .flex-item {
+            background-color: chocolate;
+            height: 100px;
+            width: 40%;
+            border: 2px solid cornsilk;
+            margin: 2px;
+            padding: 3px;
+            text-overflow: hidden;
+            color: azure;
+            border-radius: 3px;
+           
+         
+
+        }
+        #flex-item-1{
+            float:top;
+
+        }
+        .flex-itemn {
+            background-color:  cornsilk;
+            height: 17px;
+            width: 50%;
+            border: 2px  cornsilk;
+            margin: 1px;
+            padding: 4px;
+          border-radius: 3px;
+            text-overflow: hidden;
+            color:  chocolate;
+            font-size: xx-small;
+            font-weight: xx-small;
+           
+
+            float: bottom;
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1
+            <div class="flex-container">
+                <div class="flex-itemn" id="flex-itemn-1">1</div>
+                <div class="flex-itemn" id="flex-item-2">2</div>
+                <div class="flex-itemn" id="flex-item-3">3</div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-itemn" id="flex-item-4">4</div>
+                <div class="flex-itemn" id="flex-item-5">5</div>
+                <div class="flex-itemn" id="flex-item-6">6</div>
+                <div class="flex-itemn" id="flex-item-7">7</div>
+            </div>
+            <div class="flex-container">
+                <div class="flex-itemn" id="flex-item-4">8</div>
+                <div class="flex-itemn" id="flex-item-5">9</div>
+                <div class="flex-itemn" id="flex-item-6">10</div>
+                <div class="flex-itemn" id="flex-item-7">11</div>
+                <div class="flex-itemn" id="flex-item-7">12</div>
+        
+            </div>
+        
+        
+        </div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+        <div class="flex-item" id="flex-item-6">6</div>
+        <div class="flex-item" id="flex-item-7">7</div>
+    </div>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-4">8</div>
+        <div class="flex-item" id="flex-item-5">9</div>
+        <div class="flex-item" id="flex-item-6">10</div>
+        <div class="flex-item" id="flex-item-7">11</div>
+        <div class="flex-item" id="flex-item-7">12</div>
+
+    </div>
+
+
+    
+
+</body>
+
+</html>
